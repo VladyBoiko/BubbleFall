@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d626f0c99eb3fe4cb40b6cc64401c7d, type: 3}
+  m_Name: BubbleMaterialProvider
+  m_EditorClassIdentifier: 
+  _materials:
+  - bubbleColor: 0
+    material: {fileID: 2100000, guid: c8671d5051407764c88010e577433bed, type: 2}
+    color: {r: 1, g: 0, b: 0.10503864, a: 1}
+  - bubbleColor: 1
+    material: {fileID: 2100000, guid: 1bf19e037662d234ebf54bf664830440, type: 2}
+    color: {r: 0, g: 1, b: 0.050955772, a: 1}
+  - bubbleColor: 2
+    material: {fileID: 2100000, guid: 27ba189fef23ca7488caa96149cbf945, type: 2}
+    color: {r: 0.03042221, g: 0, b: 1, a: 1}
+  - bubbleColor: 3
+    material: {fileID: 2100000, guid: 1e471d034e697f74aa984f873dfb05c5, type: 2}
+    color: {r: 0.9087789, g: 1, b: 0, a: 1}
+  - bubbleColor: 4
+    material: {fileID: 2100000, guid: 36736ecd06d63854ea3db03bb9ef6867, type: 2}
+    color: {r: 0.9329524, g: 0, b: 1, a: 1}
